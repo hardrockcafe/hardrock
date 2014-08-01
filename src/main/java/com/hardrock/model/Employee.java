@@ -1,17 +1,36 @@
 package com.hardrock.model;
 
+import java.math.BigDecimal;
+
 public class Employee {
 
-	private int empId;
+	private String empId;
 
 	private String empName;
 
 	private String empDes;
 
+	private BigDecimal empSal;
+
+	/**
+	 * @return the empSal
+	 */
+	public BigDecimal getEmpSal() {
+		return empSal;
+	}
+
+	/**
+	 * @param empSal
+	 *            the empSal to set
+	 */
+	public void setEmpSal(BigDecimal empSal) {
+		this.empSal = empSal;
+	}
+
 	/**
 	 * @return the empId
 	 */
-	public int getEmpId() {
+	public String getEmpId() {
 		return empId;
 	}
 
@@ -19,7 +38,7 @@ public class Employee {
 	 * @param empId
 	 *            the empId to set
 	 */
-	public void setEmpId(int empId) {
+	public void setEmpId(String empId) {
 		this.empId = empId;
 	}
 
