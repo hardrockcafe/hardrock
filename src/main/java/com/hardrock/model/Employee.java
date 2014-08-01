@@ -8,6 +8,23 @@ public class Employee {
 
 	private String empDes;
 
+	private int empSal;
+
+	/**
+	 * @return the empSal
+	 */
+	public int getEmpSal() {
+		return empSal;
+	}
+
+	/**
+	 * @param empSal
+	 *            the empSal to set
+	 */
+	public void setEmpSal(int empSal) {
+		this.empSal = empSal;
+	}
+
 	/**
 	 * @return the empId
 	 */
