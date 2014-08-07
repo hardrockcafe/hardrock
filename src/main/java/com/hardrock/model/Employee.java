@@ -73,4 +73,19 @@ public class Employee {
 	public void setEmpDes(String empDes) {
 		this.empDes = empDes;
 	}
+	
+	/**
+	 * @return the employer
+	 */
+	public String getEmployer() {
+		return employer
+	}
+
+	/**
+	 * @param employer
+	 *            the employer to set
+	 */
+	public void setEmployer(String employer) {
+		this.employer = employer;
+	}
 }
