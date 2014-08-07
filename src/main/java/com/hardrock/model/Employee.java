@@ -11,6 +11,8 @@ public class Employee {
 	private String empDes;
 
 	private BigDecimal empSal;
+	
+	private String employer;
 
 	/**
 	 * @return the empSal
